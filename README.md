@@ -37,8 +37,8 @@ Package pętle - treść zadań:
 &nbsp;**** <br />
 ***** <br />
 9. Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) drzewko choinkowe. Podając n = 5 powinniśmy otrzymać takie drzewko:<br />
-            * <br />
-           *** <br />
-          ***** <br />
-         ******* <br />
-        ********* <br />
+ &nbsp;&nbsp;&nbsp;&nbsp;* <br />
+ &nbsp;&nbsp;&nbsp;*** <br />
+ &nbsp;&nbsp;***** <br />
+ &nbsp;******* <br />
+ ********* <br />
