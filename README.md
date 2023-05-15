@@ -24,19 +24,19 @@ Package pętle - treść zadań:
 4. Utwórz tablicę rozmiaru 10 elementów i uzupełnij ją liczbami. Wypisz wszystkie liczby z tej tablicy na ekran. Następnie wypisz wszystkie liczby od tyłu.
 5. Wykorzystując tablicę z poprzedniego zadania, oblicz sumę wszystkich jej elementów.
 6. Napisz program, który będzie obliczał silnię z nieujemnej liczby tj. jeżeli podamy liczbę 5, to zostanie obliczona 5!. Wzór silni: 5! = 5 * 4 * 3 * 2 * 1 = 120.
-7. Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) trójkąt prostokątny o przyprostokątnych składających się z n-razy * (gwiazdki) ;) np. podając n = 5 powinniśmy otrzymać taki trójkąt:
+7. Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) trójkąt prostokątny o przyprostokątnych składających się z n-razy * (gwiazdki) ;) np. podając n = 5 powinniśmy otrzymać taki trójkąt:<br />
         * <br />
         ** <br />
         *** <br />
         **** <br />
         ***** <br />
-8. Narysuj odbicie lustrzane trójkąta z poprzedniego zadania tj. dla n = 5 powinniśmy ujrzeć:
-              * <br />
-             ** <br />
-            *** <br />
-           **** <br />
-          ***** <br />
-9. Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) drzewko choinkowe. Podając n = 5 powinniśmy otrzymać takie drzewko:
+8. Narysuj odbicie lustrzane trójkąta z poprzedniego zadania tj. dla n = 5 powinniśmy ujrzeć:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;* <br />
+&nbsp;&nbsp;&nbsp;** <br />
+&nbsp;&nbsp;*** <br />
+&nbsp;**** <br />
+***** <br />
+9. Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) drzewko choinkowe. Podając n = 5 powinniśmy otrzymać takie drzewko:<br />
             * <br />
            *** <br />
           ***** <br />
