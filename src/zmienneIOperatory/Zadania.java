@@ -2,8 +2,8 @@ package zmienneIOperatory;
 
 public class Zadania {
     public static void main(String[] args) {
-//       Zad. 1 Utwórz trzy zmienne i przypisz do nich wartości i wypisz na ekran:
-//       wiek (lata), wzrost (metry), waga (kg) wypisz
+//       Zad. 1 Utwórz trzy zmienne i przypisz do nich wartości i wypisz je na ekran:
+//       wiek (lata), wzrost (metry), waga (kg)
 
         int wiek = 42;
         float wzrost = 1.74f;
@@ -12,8 +12,7 @@ public class Zadania {
         System.out.println("wzrost: " + wzrost + " m");
         System.out.println("waga: " + waga + " kg");
 
-//      Zad. 2 Na podstawie powyższych danych oblicz Twoje BMI
-//        BMI = waga / wzrost ^ 2
+//      Zad. 2 Na podstawie powyższych danych oblicz Twoje BMI. BMI = waga / wzrost ^ 2
 
         float bmi = waga / (wzrost*wzrost);
         System.out.println("Twoje BMI: " + bmi);

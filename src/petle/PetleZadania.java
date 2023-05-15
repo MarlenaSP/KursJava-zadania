@@ -113,8 +113,8 @@ public class PetleZadania {
             gwiazdkaLustrzana++;
         }
 
-//        Zad.9  (do samodzielnego rozwiązania) Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) drzewko choinkowe o wysokości n
-//        podając n = 5 powinniśmy otrzymać takie drzewko:
+//        Zad.9  Napisz program, w którym po podaniu liczby n narysujesz za pomocą * (gwiazdki) drzewko choinkowe o wysokości n.
+//        Podając n = 5 powinniśmy otrzymać takie drzewko:
 //            *
 //           ***
 //          *****
