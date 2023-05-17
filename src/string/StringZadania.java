@@ -33,7 +33,7 @@ public class StringZadania {
             System.out.println(zdanie.charAt(i));
         }
         /*
-        Zad.3 
+        Zad.3
         */
         System.out.println("Zadanie 3");
         for(int i=zdanie.length()-1; i>=0; i--){
