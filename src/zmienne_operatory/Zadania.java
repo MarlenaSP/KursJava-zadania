@@ -1,4 +1,4 @@
-package zmienneIOperatory;
+package zmienne_operatory;
 
 public class Zadania {
     public static void main(String[] args) {

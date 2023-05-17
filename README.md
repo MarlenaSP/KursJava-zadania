@@ -1,12 +1,12 @@
 # KursJava-zadania
 
-Package zmienne i operatory - treść zadań:
+Package zmienne_operatory - treść zadań:
 1. Utwórz trzy zmienne i przypisz do nich wartości: wiek (lata), wzrost (metry), waga (kg), wypisz zmienne na ekran.
 2. Na podstawie powyższych danych oblicz Twoje BMI, wzór: BMI = waga / wzrost ^ 2.
 3. Skonwertuj wynik na liczbę całkowitą.
 4. Podaj dowolną liczbę typu całkowitego. Następnie oblicz wynik dzielenia oraz resztę z dzielenia przez liczby 2, 3 oraz 11.
 
-Package instrukcje wrunkowe - treść zadań:
+Package instrukcje_wrunkowe - treść zadań:
 1. Sprawdź czy wpisana liczba jest parzysta czy nieparzysta. Wypisz odpowiedni komunikat na ekran.
 2. Oblicz podatek od dochodu (orientacyjnie, gdyż nie bierzemy pod uwagę np. ulgi podatkowej). Wzór: 
 - dla dochodu do 85 528 zł podatek wynosi 17%,
@@ -42,3 +42,13 @@ Package pętle - treść zadań:
  &nbsp;&nbsp;***** <br />
  &nbsp;******* <br />
  ********* <br />
+
+Package string - treść zadań:
+1. Utwórz trzy zmienne typu String. Do pierwszej przypisz swoje imię, do drugiej nazwisko oraz do trzeciej imię i nazwisko oddzielone spacją.
+   Następnie wykonaj polecenia używając odpowiednich metod z String i wypisując informacje na ekran:<br />
+   a) wypisz ile znaków zawiera zmienna przechowująca imię, ile nazwisko a ile imię i nazwisko<br />
+   b) sprawdź czy Twoje imię jest równe "Alicja" lub "Jan"<br />
+   c) wypisz nazwisko z WIELKICH LITER<br />
+   d) zamień w nazwisku litery 'a' na 'e' i zobacz czy coś się zmieniło<br />
+2. Dla zdania "Potrafię coraz więcej z programowania." wypisz każdy znak w osobnej linii.
+3. Zdanie „Potrafię coraz więcej z programowania.” napisz od tyłu „.ainawomargorp z jecęiw zaroc ęifartoP”.

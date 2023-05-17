@@ -1,6 +1,4 @@
-package instrukcjeWarunkowe;
-
-import com.sun.security.jgss.GSSUtil;
+package instrukcje_warunkowe;
 
 public class InstrukcjeZadania {
     public static void main (String[] args) {
