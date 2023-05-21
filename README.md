@@ -52,3 +52,23 @@ Package string - treść zadań:
    d) zamień w nazwisku litery 'a' na 'e' i zobacz czy coś się zmieniło<br />
 2. Dla zdania "Potrafię coraz więcej z programowania." wypisz każdy znak w osobnej linii.
 3. Zdanie „Potrafię coraz więcej z programowania.” napisz od tyłu „.ainawomargorp z jecęiw zaroc ęifartoP”.
+
+Package klasy - treść zadań:<br />
+Do każdego zadania utwórz osobny package o nazwie “zadanie1”, “zadanie2”, “zadanie3”, w których będą przechowywane klasy z rozwiązaniami.<br />
+
+1. package "zadanie1": Utwórz klasę o nazwie "Programista", a w niej:<br />
+a)&nbsp; pola: imie, nazwisko, jezyk, zarobki<br />
+b)&nbsp; metody: pobierzImie(), pobierzNazwisko(), pobierzJezyk(), pobierzWynagrodzenie(), które będą zwracać dane z odpowiednich pól<br />
+c)&nbsp; konstruktor, przyjmujący i ustawiający wartości dla wszystkich pól klasy z argumentami: podajImie, podajNazwisko, podajJezyk, podajZarobki<br />
+d)&nbsp; pola mają być prywatne a metody i konstruktor publiczne<br />
+e)&nbsp; w main: utwórz obiekt z uzupełnionymi danymi i wywołaj metody, wypisując dane na ekran<br /> <br />
+2. package "zadanie2": Napisz klasę, która w konstruktorze będzie przyjmować tablicę oraz będzie posiadać cztery metody:<br />
+   - zliczającą sumę wszystkich elementów z tablicy 
+   - liczącą średnią 
+   - znajdującą wartość najmniejszą 
+   - znajdującą wartość największą<br />
+Każda z metod powinna zwracać wynik jako int.
+Utwórz pole przechowujące tablicę. Załóż, że w tablicy będą tylko liczby całkowite.
+Pola będą prywatne a metody i konstruktor publiczne.
+Klasę, pole i metody nazwij według własnego uznania.
+Przetestuj całość w main.
