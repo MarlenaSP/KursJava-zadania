@@ -72,3 +72,9 @@ Utwórz pole przechowujące tablicę. Załóż, że w tablicy będą tylko liczb
 Pola będą prywatne a metody i konstruktor publiczne.
 Klasę, pole i metody nazwij według własnego uznania.
 Przetestuj całość w main.
+3. package "zadanie3":  Stwórz klasę o nazwie “Matma”. Dodaj w niej metody liczące:<br />
+   - obwód i pole koła (jako argument do metody przyjmuje promień koła) 
+   - obwód i pole prostokąta (jako argumenty do metody przyjmuje długość boku a i b)<br />
+Metody niech będą statyczne i zwracają wynik odpowiedniego typu. Pola i metody niech będą publiczne. 
+Utwórz w klasie statyczne, stałe pole, które będzie przechowywać wartość PI = 3.14.
+Do obliczeń koła wykorzystaj Twoje PI.
