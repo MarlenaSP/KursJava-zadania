@@ -78,3 +78,17 @@ Przetestuj całość w main.
 Metody niech będą statyczne i zwracają wynik odpowiedniego typu. Pola i metody niech będą publiczne. 
 Utwórz w klasie statyczne, stałe pole, które będzie przechowywać wartość PI = 3.14.
 Do obliczeń koła wykorzystaj Twoje PI.
+
+Package zadanie_dziedziczenie, treść zadania:<br />
+Utwórz package o nazwie “zadanie_dziedziczenie”, w których będą przechowywane klasy z rozwiązaniami.
+1. Utwórz klasę "Osoba" a w niej: 
+   - dodaj pola: imię i nazwisko;
+   - dodaj konstruktor z argumentami: imię i nazwisko;
+   - dodaj metodę "przedstawSie()" która wypisze na ekran “Jestem imie nazwisko" np. "Jestem Jan Kowalski"
+2. Utwórz klasę “Pracownik”, która będzie dziedziczyć po klasie “Osoba”, a następnie:
+   - dodaj pola do klasy "Pracownik": stanowisko i nazwaFirmy
+   - dodaj konstruktor, który będzie ustawiał imię, nazwisko, stanowisko, nazwę firmy. Wykorzystaj konstruktor klasy nadrzędnej do ustawienia imienia i nazwiska
+   - przesłoń metodę “przedstawSie()”, aby wypisywała na ekran “Jestem imie nazwisko i pracuję w firmie nazwaFirmy na stanowisku stanowisko”
+     np. “Jestem Jan Kowalski i pracuję w firmie XYZ na stanowisku programista”
+3. Uzupełnij pola, metody, konstruktory w klasach “Osoba” i “Pracownik” o odpowiednie modyfikatory dostępu.
+4. przetestuj klasę Pracownik w main tworząc obiekt i wywołując metodę “przedstawSie()”.
