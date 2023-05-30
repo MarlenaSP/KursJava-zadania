@@ -92,3 +92,10 @@ Utwórz package o nazwie “zadanie_dziedziczenie”, w których będą przechow
      np. “Jestem Jan Kowalski i pracuję w firmie XYZ na stanowisku programista”
 3. Uzupełnij pola, metody, konstruktory w klasach “Osoba” i “Pracownik” o odpowiednie modyfikatory dostępu.
 4. przetestuj klasę Pracownik w main tworząc obiekt i wywołując metodę “przedstawSie()”.
+
+Package wyjatki: 
+Utwórz package "wyjatki" i w nim umieszczaj tworzone klasy.
+1. W metodzie main napisz kawałek kodu, który będzie dzielił liczby a/b (typu int) i wypisywał wynik na ekran. Zobacz co się stanie, jeżeli pod b podasz liczbę 0. Spróbuj obsłużyć błąd try/catchem, aby w przypadku dzielenia przez zero wyskoczył użytkownikowi komunikat:
+   “Nie wolno dzielić przez 0!”
+2. Analogicznie do zadania 1, zaimplementuj metodę publiczną, statyczną (w tej samej klasie co metoda main) o nazwie “podziel”, która będzie przyjmować parametry a oraz b i zwracać wynik z dzielenia a/b. Utwórz własny wyjątek typu check, który będzie wyrzucany w przypadku podania liczby 0 w miejsce parametru b. Wymyślić nazwę i pamiętaj o odpowiednim dziedziczeniu. Sprawdź działanie metody wywołując ją w main.
+3. Wróć do zadania 3 z działu o klasach (Matma), w którym były liczone m. in. obwody i pola. Stwórz wyjątek typu uncheck o nazwie "LiczbaUjemnaException". Uzupełnij metodę "obwodKola" - jeżeli promień będzie ujemny wyrzuć wyjątek "LiczbaUjemnaException". Przetestuj w main podając za promień liczbę ujemną.
