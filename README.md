@@ -99,3 +99,11 @@ Utwórz package "wyjatki" i w nim umieszczaj tworzone klasy.
    “Nie wolno dzielić przez 0!”
 2. Analogicznie do zadania 1, zaimplementuj metodę publiczną, statyczną (w tej samej klasie co metoda main) o nazwie “podziel”, która będzie przyjmować parametry a oraz b i zwracać wynik z dzielenia a/b. Utwórz własny wyjątek typu check, który będzie wyrzucany w przypadku podania liczby 0 w miejsce parametru b. Wymyślić nazwę i pamiętaj o odpowiednim dziedziczeniu. Sprawdź działanie metody wywołując ją w main.
 3. Wróć do zadania 3 z działu o klasach (Matma), w którym były liczone m. in. obwody i pola. Stwórz wyjątek typu uncheck o nazwie "LiczbaUjemnaException". Uzupełnij metodę "obwodKola" - jeżeli promień będzie ujemny wyrzuć wyjątek "LiczbaUjemnaException". Przetestuj w main podając za promień liczbę ujemną.
+
+Package zadania_abstrakcja_interfejs (3 zadania):<br />
+Utwórz package o nazwie “zadania_abstrakcja_interfejs”, a w nim kolejne package do każdego zadania<br />
+1. package "zadanie1":<br />
+    - stwórz klasę abstrakcyją "StacjaKosimczna", dodaj w niej metodę abstrakcyją "atakujLaserem"<br />
+    - stwórz nową klasę o nazwie "GwiazdaSmierci", która będzie dziedziczyła po klasie "StacjaKosmiczna". Zaimplementuj metodę "atakujLaserem", która wyświetli na ekranie tekst "piu piu"<br />
+    - przetestuj w Main<br />
+
