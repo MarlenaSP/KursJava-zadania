@@ -106,4 +106,9 @@ Utwórz package o nazwie “zadania_abstrakcja_interfejs”, a w nim kolejne pac
     - stwórz klasę abstrakcyją "StacjaKosimczna", dodaj w niej metodę abstrakcyją "atakujLaserem"<br />
     - stwórz nową klasę o nazwie "GwiazdaSmierci", która będzie dziedziczyła po klasie "StacjaKosmiczna". Zaimplementuj metodę "atakujLaserem", która wyświetli na ekranie tekst "piu piu"<br />
     - przetestuj w Main<br />
-
+2. package "zadanie2":<br />
+    - stwórz interfejs o nazwie "Figury", który będzie posiadał metody “obwod”, “pole”. Obydwie metody będą zwracały liczbę zmiennoprzecinkową.
+    - stwórz dwie klasy “Kolo”, “Prostokat”, które będą implementowały ten interfejs.
+    - dodaj konstruktor, w krótym w klasie “Kolo” będzie przekazywany promień koła, a w klasie “Prostokat” długości dwóch boków prostokąta a i b
+    - zaimplementuj metody w obydwóch klasach, aby dokonywały poprawnych obliczeń, pola będą prywatne a konstruktor i metody publiczne
+    - przetestuj w main
