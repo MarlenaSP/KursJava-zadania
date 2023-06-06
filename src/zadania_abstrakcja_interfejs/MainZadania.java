@@ -14,10 +14,24 @@ public class MainZadania {
         // Zadanie 2
         System.out.println("Zadanie 2");
         Kolo kolo = new Kolo(5);
-        Prostokat prostokat = new Prostokat(2,5);
+        Prostokat prostokat = new Prostokat(2, 5);
         System.out.println("Koło obwód: " + kolo.pole());
         System.out.println("Koło pole: " + kolo.obwod());
         System.out.println("Prostokąt obwód: " + prostokat.pole());
         System.out.println("Prostokąt pole: " + prostokat.obwod());
+
+        // Zadanie 3
+        System.out.println("Zadanie 3");
+        Info infoAnonimowe = new Info() {
+            @Override
+            public void wyswietlInfo() {
+                System.out.println("informacja wypisana z klasy anonimowej");
+            }
+        };
+        infoAnonimowe.wyswietlInfo();
+    }
+
+    interface Info {
+        void wyswietlInfo();
     }
 }
