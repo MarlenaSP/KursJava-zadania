@@ -112,3 +112,6 @@ Utwórz package o nazwie “zadania_abstrakcja_interfejs”, a w nim kolejne pac
     - dodaj konstruktor, w krótym w klasie “Kolo” będzie przekazywany promień koła, a w klasie “Prostokat” długości dwóch boków prostokąta a i b
     - zaimplementuj metody w obydwóch klasach, aby dokonywały poprawnych obliczeń, pola będą prywatne a konstruktor i metody publiczne
     - przetestuj w main
+3. Zadanie 3. Stwórz interfejs wewnętrzny o nazwie "Info" z metodą “wyswietlInfo” w klasie, w której masz metodę main.<br /> 
+Przećwiczyć tworzenie klasy anonimowej tworząc ją w metodzie main i przesłoń metodę tak, aby wypisywała tekst “informacja wypisana z klasy anonimowej”.
+Następnie wywołaj tę metodę “wyswietlInfo” i sprawdź czy prawidłowo została stworzona klasa anonimowa.
