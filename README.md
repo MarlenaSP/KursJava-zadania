@@ -115,3 +115,8 @@ Utwórz package o nazwie “zadania_abstrakcja_interfejs”, a w nim kolejne pac
 3. Zadanie 3. Stwórz interfejs wewnętrzny o nazwie "Info" z metodą “wyswietlInfo” w klasie, w której masz metodę main.<br /> 
 Przećwiczyć tworzenie klasy anonimowej tworząc ją w metodzie main i przesłoń metodę tak, aby wypisywała tekst “informacja wypisana z klasy anonimowej”.
 Następnie wywołaj tę metodę “wyswietlInfo” i sprawdź czy prawidłowo została stworzona klasa anonimowa.
+
+Package watki (3 zadania):
+1. Przećwicz tworzenie wątku poprzez klasę anonimową. Niech metoda "run" wypisze na ekran "Ta informacja została wypisana z klasy anonimowej i z mojego wątku". Wystartuj wątek, dopisz aby informacja została wyświetlona z 3 sekundowym opóźnieniem.
+2. Stwórz nową klasę o nazwie “Czasoodmierzacz” implementującą interfejs Runnable. Stwórz tzw. “timer”, który będzie co 1 sekundę wypisywał na ekran informację o tym jak długo (ile sekund) działa program od momentu jego uruchomienia. Przetestuj wątek w main.
+
