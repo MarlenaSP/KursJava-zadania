@@ -123,3 +123,9 @@ Package watki (3 zadania):
    Po wykonaniu tej czynności ma zawiadomić o skończonej pracy wypisując: “ZAKOŃCZYŁEM! Melduje się <tutaj_nazwa_wątku>".
    Uruchom kilka razy program i zobacz czy wynik za każdym razem jest taki sam.
 
+Package scanner_zadania:
+1. Wykorzystując Scanner wczytaj wpisane z klawiatury imię, nazwisko oraz wzrost. Następnie wypisz na ekran zdanie "Jestem 'imie' 'nazwisko' i mam 'wzrost' cm wzrostu"
+2. Wczytuj z klawaitury dane do momentu napotkania małego "x" lub dużego "X". Wypisuj na ekran teksty, które są oddzielane średnikiem ";"
+3. Wczytaj całą linię tekstu z klawaitury. Następnie pobierz liczbę. Wypisz na ekran wczytaną linie tekstu tyle razy ile wynosi podana liczba.
+4. Wczytuj liczby i licz ich sumę. Zakończ działanie w momencie napotkania liczby ujemnej.
+
