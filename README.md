@@ -129,3 +129,12 @@ Package scanner_zadania:
 3. Wczytaj całą linię tekstu z klawaitury. Następnie pobierz liczbę. Wypisz na ekran wczytaną linie tekstu tyle razy ile wynosi podana liczba.
 4. Wczytuj liczby i licz ich sumę. Zakończ działanie w momencie napotkania liczby ujemnej.
 
+Package pliki_zadanie:
+Zadania na pliku "fragment.txt":<br />
+a) wypisz jego zawartość na ekran<br />
+b) zlicz i wypisz ilość znaków występujących w pliku<br />
+c) wczytaj dowolny tekst z klawiatury i sprawdź czy znajduje się dana fraza pliku<br />
+d) w pliku może znajdować się wiele takich fraz. Znajdź wszystkie i wypisz nr linii wraz z całą linią tam gdzie znajduje się szukany tekst w postaci:
+"nr linii: cała linia z szukanym tekstem"
+// Zakomentuj wypisywanie z podpunktu a), aby wynik był czytelniejszy<br />
+e) przekopiuj całą zwartość do nowego pliku o nazwie "fragment_kopia.txt". Otwórz plik i sprawdź czy kopia została poprawnie utworzona. Dopisz na końcu pliku "Kopia pliku utworzona przez imię nazwisko"
